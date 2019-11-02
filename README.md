@@ -11,9 +11,10 @@ sudo apt-get install build-essential libtool autotools-dev automake pkg-config l
 sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler unzip software-properties-common
 
 Install Berkeley DB.
+
 sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 Download the daemon and tools from LeedCoin.
-wget "
+wget "https://github.com/leedcoins/Release/raw/master/leedcoin-linux.zip
