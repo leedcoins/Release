@@ -35,9 +35,11 @@ sudo mv leedcoind leedcoin-cli leedcoin-tx leedcoin-qt /usr/bin/
 Create the config file.
 
 mkdir $HOME/.leedcoin
+
 nano $HOME/.leedcoin/leedcoin.conf
 
-Paste the following lines in examplecoin.conf.
+Paste the following lines in examplecoin.conf
+
 rpcuser=rpc_leedcoin
 rpcpassword=123456789
 rpcallowip=127.0.0.1
@@ -47,4 +49,5 @@ txindex=1
 daemon=1
 
 Start your node with the following command.
-examplecoind
+
+leedcoind
