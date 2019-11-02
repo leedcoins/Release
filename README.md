@@ -29,4 +29,22 @@ sudo unzip leedcoin-linux.zip
 Install the daemon and tools.
 
 cd /leedcoin-linux
+
 sudo mv leedcoind leedcoin-cli leedcoin-tx leedcoin-qt /usr/bin/
+
+Create the config file.
+
+mkdir $HOME/.leedcoin
+nano $HOME/.leedcoin/leedcoin.conf
+
+Paste the following lines in examplecoin.conf.
+rpcuser=rpc_leedcoin
+rpcpassword=123456789
+rpcallowip=127.0.0.1
+listen=1
+server=1
+txindex=1
+daemon=1
+
+Start your node with the following command.
+examplecoind
