@@ -40,12 +40,18 @@ nano $HOME/.leedcoin/leedcoin.conf
 
 Paste the following lines in examplecoin.conf
 
-rpcuser=rpc_leedcoin \n
+rpcuser=rpc_leedcoin
+
 rpcpassword=123456789
+
 rpcallowip=127.0.0.1
+
 listen=1
+
 server=1
+
 txindex=1
+
 daemon=1
 
 Start your node with the following command.
